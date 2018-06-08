@@ -12,9 +12,11 @@ here = os.path.abspath(os.path.dirname(__file__))
 aliyunsdkcore_dir = os.path.join(here, 'aliyunsms/sdk/aliyun-python-sdk-core/')
 aliyunsdkdysmsapi_dir = os.path.join(here, 'aliyunsms/sdk/aliyun-python-sdk-dysmsapi/')
 aliyunsdkdyplsapi_dir = os.path.join(here, 'aliyunsms/sdk/aliyun-python-sdk-dyplsapi/')
+aliyunsdkmns_dir = os.path.join(here, 'aliyunsms/sdk/mns_python_sdk/')
 os.system('cd {} && python setup.py install'.format(aliyunsdkcore_dir))
 os.system('cd {} && python setup.py install'.format(aliyunsdkdysmsapi_dir))
 os.system('cd {} && python setup.py install'.format(aliyunsdkdyplsapi_dir))
+os.system('cd {} && python setup.py install'.format(aliyunsdkmns_dir))
 # os.system('cd {}'.format(here))
 
 # Get the long description from the README file
